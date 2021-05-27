@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <link rel="icon" href="../../pic/logo_Gura.ico" type="image/x-icon">
+        <title>
+            油到拿不起來の表單
+        </title>
+        <style type="text/css">
+            .bg_box{
+                background: url(../../pic/box_bg.png);
+                background-color: white;
+                background-size: 25%;
+                margin:20px;
+                display:flex;
+            }
+            .box_1{
+                padding:30px 0px 30px 30px; 
+            }
+            .box_2{
+                margin: auto;
+            }
+            .profile_pic{
+                background: url(../../pic/profile_pic.jpg) no-repeat;
+                background-size: 300px auto;
+                height: 300px;
+                width: 300px;
+                border-radius: 50px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body background="../../pic/bg.jpg" class="bg">
+        <div class="bg_box">
+            <div class="box_1">
+                <form name="login">
+                    個人資料
+                    <br>
+                    <font color=#bb1111>*</font>姓名：<input name="phone_num" type="text" size="18">
+                    <br>
+                    <font color=#bb1111>*</font>E-mail：<input name="account" type="text" size="18">
+                    <br>
+                    連絡電話：<input name="phone_num" type="text" size="15">
+                    <br>
+                    喜愛的色彩：<input name="mycolor" type="color">
+                    <br>
+                    
+                    <hr noshade />
+                    請問您想參加的行程：<select name="tour">
+                    <optgroup label="國內">
+                            <option value="1">苗栗國三小農村大探險
+                            <option value="2">台中濱海文化體驗營  
+                            <option value="3">台南無糖飲大胃王
+                　　</optgroup>
+                        <optgroup label="國外">
+                            <option value="3">地獄單程列車之旅
+                            <option value="4">武漢華南海鮮市場
+                    </optgroup>
+                    </select>
+                    <br>
+                    請問您喜歡的食物：
+                    <br>
+                    <select name="brand" size="5" multiple> 
+                        <option value="1">陽光
+                        <option value="2">空氣
+                        <option value="3">水 
+                        <option value="4">土
+                        <option value="5">岩漿
+                        <option value="6">火
+                        <option value="7">羊咩咩
+                    </select>
+                    <br>
+                    <hr noshade />
+                    <font color=#bb1111>*</font>對本站的意見：
+                    <br>
+                    <textarea name="comment" rows="5" cols="30"></textarea>
+                    <br>
+                    對本站的評分：不喜歡<input name="score" type="range" min="0" max="100">喜歡
+                    <br>
+                    <br>
+                    填表日期：<input name="setdate" type="date">
+                    <br>
+                    <br>
+                    <input type="reset" value="清除重填">
+                    <input type="submit" value="填完送出">
+                </form> 
+            </div>
+            <div class="box_2">
+                <font size=6><b>個人網站</b></font>
+                <br>
+                <a href="../about me/about_me.html"><img class="profile_pic"></a>
+            </div>
+        </div>
+        <Font size="2">好油哦 作業這樣交不會被當嗎peko</Font>
+    </body>
+</html>

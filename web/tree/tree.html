@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>print tree</title>
+        <meta charset="utf-8"></meta>
+        
+        
+    </head>
+    
+    <BODY>
+        <SCRIPT LANGUAGE="javascript">
+            var height = 3;
+            var string = "<font>tree height is : "+height+" </font><p>";
+            for(var j = height; j > 0; j--)
+            {
+                for(var i = j; i > 0; i--)
+                {
+                    string = string+"&nbsp";
+                    if (i==1)
+                        for(var k = height-j+1; k > 0 ; k--)
+                            string = string+"*";
+                } 
+                string = string+"<br>";
+            }
+            for(var i=0; i<height; i++)
+            {
+                for(var j=0; j<height; j++)
+                {
+                    string = string+"&nbsp";
+                    if (j==height-1)
+                        string = string+"*";
+                }
+                string = string+"<br>";
+            }
+            document.write("<div>"+string+"</div>");
+        </SCRIPT>
+        <p></p>
+        <SCRIPT LANGUAGE="javascript">
+            var height = 5;
+            var string = "<font>tree height is : "+height+" </font><p>";
+            for(var j = height; j > 0; j--)
+            {
+                for(var i = j; i > 0; i--)
+                {
+                    string = string+"&nbsp";
+                    if (i==1)
+                        for(var k = height-j+1; k > 0 ; k--)
+                            string = string+"*";
+                } 
+                string = string+"<br>";
+            }
+            for(var i=0; i<height; i++)
+            {
+                for(var j=0; j<height; j++)
+                {
+                    string = string+"&nbsp";
+                    if (j==height-1)
+                        string = string+"*";
+                }
+                string = string+"<br>";
+            }
+            document.write("<div>"+string+"</div>");
+        </SCRIPT>
+  </BODY> 
+  
+</html>

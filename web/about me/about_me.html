@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <link rel="icon" href="../../pic/logo_Gura.ico" type="image/x-icon">
+        <title>
+            好油の簡介
+        </title>
+        <audio src="../../pic/about me/audio.mp3" autoplay="true" preload="auto" loop="true"></audio>
+        <style type="text/css">
+            /*背景*/
+            .bg{
+                background-size:cover;
+                background-repeat:no-repeat;
+                background-attachment :fixed;
+            }
+            /*小鯊鯊box*/
+            .top_pic{
+                width:1000px;
+                height:150px;
+                background:url(../../pic/about\ me/img1.png) no-repeat;
+                background-size: 1000px auto;
+                background-position-y: -320px;
+                margin-bottom: 25px;
+                border-radius: 15px;
+                /*相對座標於Gawr Gura字樣*/
+                position: relative;
+                text-align: center;
+            }
+            /*建立一米色版面，於此版面內撰寫   父版*/
+            .main_box{
+                display:flex;
+                padding:20px 30px 20px 30px; 
+                background-color:antiquewhite;
+                width:1750px;
+                margin:0 auto;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+            /*左右側box  子版*/
+            .left_box{
+                width:57.1%;
+                /*margin:0 auto;    置中*/
+            }
+            .right_box{
+                width:42.9%;
+                padding:300px 40px 20px 40px; 
+                /*margin:0 auto;    置中*/
+            }
+            /*好油哦peko pic*/
+            .profile_pic{
+                background: url(../../pic/profile_pic.jpg) no-repeat;
+                background-size: 300px auto;
+                height: 300px;
+                width: 300px;
+                border-radius: 50px;
+                display: inline-block;
+            }
+            /*gura文字描述格*/
+            .text_icon{
+                position: absolute;
+                font-weight: bold;
+                bottom: 10px;
+                left : 20px;
+                color: white;
+                display: block;
+                width: 120px;
+                text-align: center;
+            }
+            /*想要職缺的那個table的box*/
+            .hoshi_table{
+                border:1px dashed darkslateblue;
+                width: 100%;
+            }
+            /*github外接網站box*/
+            .github_box{
+                width: 60%;
+                height:200px;
+                border-radius: 30px;
+                margin:0 auto;
+                margin-bottom: 300px;
+                background-color: white;
+                color: #7F3FBF; 
+                text-align:center;
+                line-height:270px;
+            }
+            /*studio外接網站box*/
+            .studio_box{
+                width: 60%;
+                height:200px;
+                border-radius: 30px;
+                margin:0 auto;
+                margin-bottom: 300px;
+                background-color: #000000;
+                color: #ffffff; 
+                text-align:center;
+                line-height:270px;
+            }
+            /*github圖標*/
+            .github_picurl{
+                margin-left: 125px;
+                margin-top: -75px;
+                width:150px;
+                height:150px;
+                border-radius: 75px;
+                background:url(../../pic/about\ me/img3.png);
+                background-size: 150px auto;
+                position: absolute;
+            }
+            /*studio圖標*/
+            .studio_picurl{
+                margin-left: 125px;
+                margin-top: -75px;
+                width:150px;
+                height:150px;
+                border-radius: 75px;
+                background:url(../../pic/about\ me/img2.png);
+                background-size: 150px auto;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body background="../../pic/bg.jpg" class="bg">
+        <div id="top" class="main_box">
+            <div class="left_box">
+                <a href="https://twitter.com/fuyouchu/status/1355814907032215556/photo/1">
+                    <div class="top_pic">
+                        <span class="text_icon">
+                            <font size="5">
+                                Gawr Gura @fuyouchu
+                            </font>
+                        </span>
+                    </div>
+                </a>
+
+                <table border="1" cellpadding="5" width=1000px>
+                    <caption>
+                        <h2>My profile !!!</h2>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <td colspan="7" ,align="left"><Font color=#aa1111><b>※基本資料</b></Font></td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>姓名</Font></th>
+                            <td align="center">葉忠諺</td>
+                            <th><Font color=#3F6EBF>性別</Font></th>
+                            <td align="center">男</td>
+                            <th><Font color=#3F6EBF>年齡</Font></th>
+                            <td align="center">永遠的20歲</td>
+                            <th rowspan="999"><a href="#top"><div class="profile_pic"></div></a></th>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>誕成日</Font></th>
+                            <td align="center">2001/01/20</td>
+                            <th><Font color=#3F6EBF>婚姻</Font></th>
+                            <td colspan="3">單身</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>電話</Font></th>
+                            <td colspan="5">0903798791</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>住址</Font></th>
+                            <td colspan="5">台北市信義區xx路xxx號x樓</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>信箱</Font></th>
+                            <td colspan="5">zyyeh0120@gmail.com</td>
+                        </tr>
+                    </thead>
+                </table>
+                <hr noshade />
+                <table border="1" cellpadding="5" width=1000px>
+                    <thead>
+                        <tr>
+                            <td colspan="5"><Font color=#aa1111><b>※學歷與經歷</b></Font></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3"><Font color=#3F6EBF>學歷</Font></th>
+                            <th><Font color=#3F6EBF>學校名稱</Font></th>
+                            <th><Font color=#3F6EBF>科系</Font></th>
+                            <th><Font color=#3F6EBF>畢(肆)業年度</Font></th>
+                            <th><Font color=#3F6EBF>備註</Font></th>
+                        </tr>
+                        <tr>
+                            <td align="center">台北市私立復興實驗高級中學</td>
+                            <td align="center">rh</td>
+                            <td align="center">103</td>
+                            <td align="center">畢業</td>
+                        </tr>
+                        <tr>
+                            <td align="center">淡江大學</td>
+                            <td align="center">cs</td>
+                            <td align="center">未</td>
+                            <td align="center">在學</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3"><Font color=#3F6EBF>經歷</Font></th>
+                            <th><Font color=#3F6EBF>公司名稱</Font></th>
+                            <th><Font color=#3F6EBF>職務名稱</Font></th>
+                            <th><Font color=#3F6EBF>起始日期</Font></th>
+                            <th><Font color=#3F6EBF>工作內容</Font></th>
+                        </tr>
+                        <tr>
+                            <td align="center">聘請</td>
+                            <td align="center">接單特聘</td>
+                            <td align="center">密</td>
+                            <td align="center">接單修圖、美術</td>
+                        </tr>
+                        <tr>
+                            <td align="center">聘請</td>
+                            <td align="center">家教</td>
+                            <td align="center">密</td>
+                            <td align="center">家教</td>
+                        </tr>
+                    </thead>
+                </table>
+                <hr noshade />
+                <table border="1" cellpadding="5" width=1000px>
+                    <thead>
+                        <tr>
+                            <td colspan="5"><Font color=#aa1111><b>※語文能力</b></Font></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th><Font color=#3F6EBF>聽</Font></th>
+                            <th><Font color=#3F6EBF>說</Font></th>
+                            <th><Font color=#3F6EBF>讀</Font></th>
+                            <th><Font color=#3F6EBF>寫</Font></th>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>中文</Font></th>
+                            <td align="center">爛死</td>
+                            <td align="center">爛死</td>
+                            <td align="center">爛死</td>
+                            <td align="center">爛死</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>台文</Font></th>
+                            <td align="center">勉強</td>
+                            <td align="center">稍微</td>
+                            <td align="center">有點</td>
+                            <td align="center">不行</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>英文</Font></th>
+                            <td align="center">略懂</td>
+                            <td align="center">不行</td>
+                            <td align="center">不行</td>
+                            <td align="center">略懂</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>日文</Font></th>
+                            <td align="center">83%</td>
+                            <td align="center">勉強</td>
+                            <td align="center">83%</td>
+                            <td align="center">勉強</td>
+                        </tr>
+                    </thead>
+                </table>
+                <hr noshade />
+                <table border="1" cellpadding="5" width=1000px>
+                    <thead>
+                        <tr>
+                            <td colspan="2"><Font color=#aa1111><b>※技能專長</b></Font></td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>電腦技能</Font></th>
+                            <td width=85%>c, c++, java, javascript, nodejs, python, flask, html5, css, sql, PS, AE, PR, office365</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>認證資格</Font></th>
+                            <td>Microsoft MOS-excel, CPE, ios實習證書, 日本語文能力證書, 實驗性火藥火箭製作與發射實習和獲獎證書</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>駕駛執照</Font></th>
+                            <td>無</td>
+                        </tr>
+                        <tr>
+                            <th><Font color=#3F6EBF>交通工具</Font></th>
+                            <td>捷運通勤</td>
+                        </tr>
+                    </thead>
+                </table>
+                <hr noshade />
+                <div class="hoshi_table">
+                    <table cellpadding="5" width=1000px>
+                        <thead>
+                            <tr>
+                                <td colspan="2" align="start" bgcolor=#FFFFFF><Font color=#aa1111><b>※求職條件</b></Font></td>
+                            </tr>
+                            <tr>
+                                <td align="start" bgcolor=#FFFFFF><Font color=#aa1111><b>希望職務類別希望職務名稱</b></Font></td>
+                                <td width=75%>內部特殊應急需求問題處理技師</td>
+                            </tr>
+                            <tr>
+                                <td align="start" bgcolor=#FFFFFF><Font color=#aa1111><b>希望職務名稱</b></Font></td>
+                                <td>便祕在旁加油員</td>
+                            </tr>
+                            <tr>
+                                <td align="start" bgcolor=#FFFFFF><Font color=#aa1111><b>希望工作地點</b></Font></td>
+                                <td>廁所</td>
+                            </tr>
+                            <tr>
+                                <td align="start" bgcolor=#FFFFFF><Font color=#aa1111><b>希望薪資待遇</b></Font></td>
+                                <td>1฿</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="right_box">
+                <div class="github_box">
+                    <a href="https://github.com/PolarisZenya">
+                        <div class="github_picurl"></div>
+                    </a>
+                    <Font size="9"><b>My Github</b></Font>
+                </div>
+                <div class="studio_box">
+                    <a href="https://steamcommunity.com/profiles/76561198818134644/myworkshopfiles/">
+                        <div class="studio_picurl"></div>
+                    </a>
+                    <Font size="9"><b>Steam Studio</b></Font>
+                </div>
+            </div>
+        </div>
+        <div>
+            <Font size="2">好油哦 作業這樣交不會被當嗎peko</Font>
+        </div>
+    </body>
+</html>
